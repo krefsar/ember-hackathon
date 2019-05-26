@@ -1,7 +1,7 @@
 {
   "name": "ember-hackathon",
   "version": "1.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Installs dependencies I use in hackathons to get started on new projects quickly.",
   "keywords": [
     "ember-addon"
   ],
