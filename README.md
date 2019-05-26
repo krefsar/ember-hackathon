@@ -1,31 +1,31 @@
-ember-hackathon
-==============================================================================
+# ember-hackathon
 
-[Short description of the addon.]
+This is an Ember addon that includes most of the dependencies and setup I use for new hackathon projects. It installs several useful Ember addons as well as sets up some base styles.
 
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
-
-
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
 ember install ember-hackathon
 ```
 
+After installing, import the hackathon base styles in your app.scss:
 
-Usage
-------------------------------------------------------------------------------
+```
+@import 'ember-hackathon';
+```
 
-[Longer description of how to use the addon in apps.]
+## Usage
 
+You should just be able to get going with your hackathon project and have access to the Ember addon dependencies. It's a shifting list depending on the packages I find useful. The current list of addons is:
 
-License
-------------------------------------------------------------------------------
+- [ember-flex](https://github.com/krefsar/ember-flex) (these are my own easy to use flex styles)
+- [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass)
+- [ember-font-awesome](https://github.com/martndemus/ember-font-awesome)
+- [liquid-fire](https://github.com/ember-animation/liquid-fire)
+- [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers)
+
+It also uses a [reset.css](http://meyerweb.com/eric/tools/css/reset/) file so we don't have to do that pesky step.
+
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
