@@ -8,11 +8,7 @@ This is an Ember addon that includes most of the dependencies and setup I use fo
 ember install ember-hackathon
 ```
 
-After installing, import the hackathon base styles in your app.scss:
-
-```
-@import 'ember-hackathon';
-```
+Installation will create a file at `app/styles/app.scss` and automatically import the addon's styles.
 
 ## Usage
 
